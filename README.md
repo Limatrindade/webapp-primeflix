@@ -29,9 +29,9 @@
 ## Layout web
 
 ### Vídeo demostrativo do site
-<video width="1920" height="1020" controls> 
-    <source src="./utils/video01.mp4" type="video01/mp4">
-</video>
+<p>
+    Basta acessar a pasta utils e baixar o vídeo.
+</p>
 
 Clonar repositório
 
