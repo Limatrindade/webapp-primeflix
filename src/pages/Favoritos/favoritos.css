@@ -1,0 +1,70 @@
+.box__favoritos {
+    height: calc(100vh - 60px);
+    padding: 2em;
+}
+
+.box__favoritos h1 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.box__lista {
+    padding: 2em;
+    margin-top: 2em;
+    background-color: #6f6f6f;
+    border-radius: 10px;
+    box-shadow: 8px 8px #000000;
+}
+
+.box__lista li {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box__btns {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 5px 5px #000000;
+    background-color: aqua;
+    margin-right: 10px;
+    color: #000000;
+    opacity: 0.6;
+    transition: all 1s;
+}
+
+.link:hover {
+    opacity: 1;
+}
+
+button {
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 5px 5px #000000;
+    background-color: red;
+    margin-right: 10px;
+    color: #fff;
+    opacity: 0.6;
+    transition: all 1s;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.nenhum__filme {
+    font-size: 1.1em;
+    padding: 3em;
+    text-align: center;
+}

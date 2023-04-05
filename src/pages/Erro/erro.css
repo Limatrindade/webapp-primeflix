@@ -1,0 +1,41 @@
+.box-erro {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: dimgrey;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.erro {
+    background-color: #000000;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    color: #fff;
+}
+
+.erro h1 {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.erro h2 {
+    margin-bottom: 40px;
+}
+
+.erro-link {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000000;
+    padding: 1em;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.erro-link:hover {
+    background-color: aqua;
+    color: #000000;
+}

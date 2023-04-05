@@ -1,0 +1,44 @@
+.box-secaofilmes {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.box-secaofilmes h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.box-secaofilmes img {
+    height: 600px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 5px;
+    opacity: 0.9;
+    transition: all 1s;
+}
+
+.box-secaofilmes img:hover {
+    opacity: 1;
+}
+
+.box-link {
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    background-color: aqua;
+    color: #000000;
+    transition: all 1s;
+    border-radius: 5px;
+}
+
+.box-link:hover {
+    background-color: rgb(0, 180, 180);
+    color: #000000;
+}
+
